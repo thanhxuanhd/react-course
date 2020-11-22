@@ -3,7 +3,11 @@ import React from 'react';
 function InfoCard() {
     return (
         <div className="info-card w-full">
-            {/* component */}
+            <div className="flex">
+                <h3 className="font-bold text-2xl p-4">
+                    Dashboard
+                </h3>
+            </div>
             <div className="flex">
                 <div className="p-4 w-full">
                     <div className="grid grid-cols-12 gap-4">

@@ -7,7 +7,7 @@ function TaskList() {
                 <h3 className="font-bold text-2xl p-5">Task</h3>
             </div>
             <div className="task-list-item flex w-full">
-                <div className="bg-white pb-4 px-4 rounded-md w-5/6 m-auto">
+                <div className="bg-white pb-4 px-4 rounded-md w-full ml-5 mr-5 m-auto">
                     <div className="flex justify-between w-full pt-6 ">
                         <p className="ml-3"> Users Table</p>
                         <svg width="14" height="4" viewBox="0 0 14 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +21,7 @@ function TaskList() {
                     </div>
                     <div className="w-full flex justify-end px-2 mt-2">
                         <div className="w-full sm:w-64 inline-block relative ">
-                            <input type="" name="" className="leading-snug border border-gray-300 block w-full appearance-none bg-gray-100 text-sm text-gray-600 py-1 px-4 pl-8 rounded-lg" placeholder="Search" />
+                            <input type="" name="" className="leading-snug border border-gray-300 block w-full appearance-none bg-gray-100 text-sm text-gray-600 py-3 px-4 pl-8 rounded-lg" placeholder="Search" />
 
                             <div className="pointer-events-none absolute pl-3 inset-y-0 left-0 flex items-center px-2 text-gray-300">
 
@@ -33,7 +33,7 @@ function TaskList() {
                     </div>
                     <div className="overflow-x-auto mt-6">
 
-                        <table className="table-auto border-collapse w-full">
+                        <table className="table-auto border-collapse w-full text-left">
                             <thead>
                                 <tr className="rounded-lg text-sm font-medium text-gray-700 text-left">
                                     <th className="px-4 py-2 bg-gray-200 ">Title</th>
