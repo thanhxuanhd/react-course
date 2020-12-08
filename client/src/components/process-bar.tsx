@@ -7,11 +7,7 @@ const defaultProps: Process = {
 }
 
 function ProcessBar(props: Process) {
-
-
-
     const styleName = { width: props.percent + '%' }
-    console.log(props.title);
 
     return (
         <div className="process-bar items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800 ml-5 mr-5 mt-5">

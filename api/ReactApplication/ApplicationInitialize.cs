@@ -59,7 +59,7 @@ namespace ReactApplication
                 {
                     Username = "Zoo",
                     FullName = "Zookeeper",
-                    Avartar = ""
+                    Avartar = @"https://avatars0.githubusercontent.com/u/15654411?s=460&u=018b3360fc1d15d741e3c5df9b6c0faab469c356&v=4"
                 });
                 context.SaveChanges();
             }

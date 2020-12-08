@@ -53,6 +53,8 @@ namespace ReactApplication
 
             app.UseAuthorization();
 
+            app.UseCors((cors) => cors.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

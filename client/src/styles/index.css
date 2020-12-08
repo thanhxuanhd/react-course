@@ -29128,6 +29128,8 @@ video {
   animation: bounce 1s infinite;
 }
 
+@import '~antd/dist/antd.css';
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
